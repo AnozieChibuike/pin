@@ -60,8 +60,8 @@ def func():
     else:
         typewriter('\nReply has to be either yes or no')
     time.sleep(1)
-    while ask2 != 'yes' and ask2 != 'no':
-        func()
+    #while ask2 != 'yes' and ask2 != 'no':
+        #func()
     return '\nProgram complete'
 
 func()
